@@ -10,7 +10,7 @@ public class Profesor extends Persona{
     }
 
     public void asignarCurso(Curso curso) {
-        
+
     }
 
     private ArrayList<Curso> cursos;
