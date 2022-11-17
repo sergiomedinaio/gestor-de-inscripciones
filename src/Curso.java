@@ -35,7 +35,7 @@ public class Curso {
     }
 
     public void agregarEstudiante(Estudiante estudiante) {
-        
+        this.estudiantes.add(estudiante);
     }
 
     public Curso(Date horario, Materia materia, Profesor profesor) {

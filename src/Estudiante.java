@@ -18,7 +18,8 @@ public class Estudiante extends Persona{
     }
 
     public void inscribirCurso(Curso curso) {
-
+        this.cursos.add(curso);
+        curso.agregarEstudiante(this);
     }
 
     public void inscribirMateria(Materia materia) {

@@ -10,7 +10,8 @@ public class Profesor extends Persona{
     }
 
     public void asignarCurso(Curso curso) {
-
+        this.cursos.add(curso);
+        curso.setProfesor(this);
     }
 
     private ArrayList<Curso> cursos;
