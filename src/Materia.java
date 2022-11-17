@@ -30,7 +30,7 @@ public class Materia {
     }
 
     public void agregarCurso(Curso curso) {
-        
+
     }
 
     private String nombre;
